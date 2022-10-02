@@ -319,6 +319,23 @@ body::-webkit-scrollbar-thumb {
     text-align: justify;
 }
 /*========About styles==============*/
+/*========youtube styles==============*/
+.youtube-outer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+}
+.youtube-inner{
+    flex: 1;
+    padding: 20px;
+   /* border: 1px solid red;*/
+}
+.youtube-inner > p{
+    font-size: 13px;
+    text-align: justify;
+}
+/*========youtube styles==============*/
 
 
 
