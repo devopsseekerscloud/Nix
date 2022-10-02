@@ -87,13 +87,53 @@
     border: 1px solid red;
     flex: 1;
 }
-.landing-page-slider-left{
+
+.landing-page-slider-left {
     display: flex;
     align-items: center;
 }
-.landing-page-slider-left > img{
+
+.landing-page-slider-left > img {
     width: 100%;
     /*border: 1px solid red;*/
+}
+
+.welcome-text {
+    color: #FF500A;
+    text-transform: uppercase;
+}
+
+.slider-short-desc {
+
+}
+.slider-inner-button-wrapper{
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+}
+.message-us-button{
+    border: 1px solid #02AAF5;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 18px;
+    background-color: #02AAF5;
+}
+.message-us-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #02AAF5;
+}
+.round-button-outer{
+    width: 250px;
+    height: 100%;
+    border: 1px solid red;
+}
+.round-button-outer > button{
+    width: 40px;
+    height: 40px;
+    background-color: #FF500A;
+    border-radius: 100%;
+    border: 1px solid #FF500A;
 }
 /*========landing slider styles==============*/
 
