@@ -79,12 +79,17 @@
 .landing-page-slider-outer {
     width: 100%;
     height: 550px;
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
     display: flex;
+}
+.landing-page-slider-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .landing-page-inner {
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
     flex: 1;
 }
 
@@ -109,7 +114,9 @@
 .slider-inner-button-wrapper{
     width: 100%;
     height: 50px;
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
+    display: flex;
+    align-items: center;
 }
 .message-us-button{
     border: 1px solid #02AAF5;
@@ -126,7 +133,10 @@
 .round-button-outer{
     width: 250px;
     height: 100%;
-    border: 1px solid red;
+   /* border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 .round-button-outer > button{
     width: 40px;
@@ -134,6 +144,24 @@
     background-color: #FF500A;
     border-radius: 100%;
     border: 1px solid #FF500A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.round-button-outer > button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #FF500A;
+}
+.round-button-outer > button:hover>i{
+    color: #FF500A;
+}
+.fa-phone{
+    color:white;
+}
+.contact-text{
+    color: #FF500A;
 }
 /*========landing slider styles==============*/
 
