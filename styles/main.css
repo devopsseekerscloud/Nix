@@ -4,6 +4,34 @@
     font-family: 'Kanit', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-track{
+    background-color: darkgray;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #FF500A;
+    border-radius: 10px;
+}
+
+.scroll-button{
+    width: 35px;
+    height: 35px;
+    background-color: #FF500A;
+    position: fixed;
+    z-index: 500;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-angle-up{
+    color: white;
+}
 .main-header-outer {
     width: 100%;
     height: 90px;
@@ -79,17 +107,18 @@
 .landing-page-slider-outer {
     width: 100%;
     height: 550px;
-  /*  border: 1px solid red;*/
+    /*  border: 1px solid red;*/
     display: flex;
 }
-.landing-page-slider-right{
+
+.landing-page-slider-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .landing-page-inner {
-  /*  border: 1px solid red;*/
+    /*  border: 1px solid red;*/
     flex: 1;
 }
 
@@ -111,34 +140,39 @@
 .slider-short-desc {
 
 }
-.slider-inner-button-wrapper{
+
+.slider-inner-button-wrapper {
     width: 100%;
     height: 50px;
-  /*  border: 1px solid red;*/
+    /*  border: 1px solid red;*/
     display: flex;
     align-items: center;
 }
-.message-us-button{
+
+.message-us-button {
     border: 1px solid #02AAF5;
     color: white;
     border-radius: 20px;
     padding: 8px 18px;
     background-color: #02AAF5;
 }
-.message-us-button:hover{
+
+.message-us-button:hover {
     cursor: pointer;
     background-color: white;
     color: #02AAF5;
 }
-.round-button-outer{
+
+.round-button-outer {
     width: 250px;
     height: 100%;
-   /* border: 1px solid red;*/
+    /* border: 1px solid red;*/
     display: flex;
     align-items: center;
     margin-left: 10px;
 }
-.round-button-outer > button{
+
+.round-button-outer > button {
     width: 40px;
     height: 40px;
     background-color: #FF500A;
@@ -149,20 +183,25 @@
     align-items: center;
     margin-right: 8px;
 }
-.round-button-outer > button:hover{
+
+.round-button-outer > button:hover {
     background-color: white;
     cursor: pointer;
     color: #FF500A;
 }
-.round-button-outer > button:hover>i{
+
+.round-button-outer > button:hover > i {
     color: #FF500A;
 }
-.fa-phone{
-    color:white;
+
+.fa-phone {
+    color: white;
 }
-.contact-text{
+
+.contact-text {
     color: #FF500A;
 }
+
 /*========landing slider styles==============*/
 
 
