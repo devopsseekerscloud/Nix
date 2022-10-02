@@ -7,15 +7,17 @@
 body::-webkit-scrollbar {
     width: 8px;
 }
-body::-webkit-scrollbar-track{
+
+body::-webkit-scrollbar-track {
     background-color: darkgray;
 }
-body::-webkit-scrollbar-thumb{
+
+body::-webkit-scrollbar-thumb {
     background-color: #FF500A;
     border-radius: 10px;
 }
 
-.scroll-button{
+.scroll-button {
     width: 35px;
     height: 35px;
     background-color: #FF500A;
@@ -29,9 +31,11 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: center;
 }
-.fa-angle-up{
+
+.fa-angle-up {
     color: white;
 }
+
 .main-header-outer {
     width: 100%;
     height: 90px;
@@ -207,22 +211,25 @@ body::-webkit-scrollbar-thumb{
 
 /*========Sevice styles==============*/
 
-.service-outer{
+.service-outer {
     width: 100%;
     height: auto;
     /*border: 1px solid red;*/
 }
-.service-header-text{
+
+.service-header-text {
     text-align: center;
 }
-.service-inner-wrapper{
-    height: 700px;
+
+.service-inner-wrapper {
+    height: auto;
     width: 100%;
     /*border: 1px solid red;*/
     display: flex;
     margin-top: 50px;
 }
-.service-inner{
+
+.service-inner {
     height: 400px;
     /*border: 1px solid red;*/
     flex: 1;
@@ -230,26 +237,67 @@ body::-webkit-scrollbar-thumb{
     flex-direction: column;
     padding: 20px;
 }
-.service-inner-context{
-   /* border: 1px solid red;*/
+
+.service-inner-context {
+    /* border: 1px solid red;*/
     flex: 1;
 }
-.service-title{
+
+.service-title {
     text-align: center;
 }
-.service-img{
+
+.service-img {
     text-align: center;
 }
-.service-img > svg{
+
+.service-img > svg {
     width: 150px;
     height: 150px;
 }
-.service-desc{
+
+.service-desc {
     color: darkslategray;
     font-weight: lighter;
     text-align: justify;
 }
-/*========Sevice styles==============*/
+
+/*========Service styles==============*/
+
+/*========About styles==============*/
+.about-outer {
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.about-inner {
+    border: 1px solid red;
+    flex: 1;
+}
+
+.about-inner > img {
+    width: 100%;
+}
+
+#about-right {
+    display: flex;
+    align-items: center;
+}
+
+.about-desc {
+    text-align: justify;
+    margin-top: 15px;
+}
+#about-left{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*========About styles==============*/
 
 
 
