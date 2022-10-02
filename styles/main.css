@@ -1,66 +1,101 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Kanit', sans-serif;
 }
-.main-header-outer{
+
+.main-header-outer {
     width: 100%;
     height: 90px;
-   /* border: 1px solid red;*/
+    /* border: 1px solid red;*/
     display: flex;
 }
-.top-bar-left{
+
+.top-bar-left {
     width: 200px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.top-bar-left > img{
+
+.top-bar-left > img {
     width: 150px;
 }
-.top-bar-right{
-  /*  border: 1px solid red;*/
+
+.top-bar-right {
+    /*  border: 1px solid red;*/
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
+
 /*========nav bar styles==============*/
-.nav-bar-outer{
+.nav-bar-outer {
     list-style: none;
     display: flex;
     /*border: 1px solid red;*/
 }
-.nav-bar-outer > li{
+
+.nav-bar-outer > li {
     /*border: 1px solid red;*/
     padding: 5px 15px;
     border-bottom: 2px solid transparent;
 }
-.nav-bar-outer > li > span > a{
+
+.nav-bar-outer > li > span > a {
     text-decoration: none;
     color: black;
 }
-.nav-bar-outer > li:hover{
+
+.nav-bar-outer > li:hover {
     /*border-bottom: 2px solid red;*/
     border-color: #FF500A;
 }
-.nav-bar-outer > li:last-child:hover{
+
+.nav-bar-outer > li:last-child:hover {
     border-color: transparent;
 }
-.contact-us-now-button{
+
+.contact-us-now-button {
     background-color: #FF500A;
     color: white;
     padding: 5px 10px;
     border-radius: 20px;
     border: 1px solid #FF500A;
 }
-.contact-us-now-button:hover{
+
+.contact-us-now-button:hover {
     cursor: pointer;
     background-color: white;
     color: #FF500A;
 }
+
 /*========nav bar styles==============*/
+
+/*========landing slider styles==============*/
+
+.landing-page-slider-outer {
+    width: 100%;
+    height: 550px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.landing-page-inner {
+    border: 1px solid red;
+    flex: 1;
+}
+.landing-page-slider-left{
+    display: flex;
+    align-items: center;
+}
+.landing-page-slider-left > img{
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+/*========landing slider styles==============*/
 
 
 
